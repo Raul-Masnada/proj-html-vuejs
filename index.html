@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js" charset="utf-8"></script>
+  </head>
+
+  <body>
+    <div id="app">
+
+
+   <header>
+    <nav class="padding">
+     <ul>
+       <li><img src="img/logo.png" alt=""></li>
+      <li v-for="elem in menu">{{elem}}</li>
+      <li>&#8981;</li>
+
+     </ul>
+     </nav>
+   </header>
+   <main>
+     <section class="first">
+       <h2>conference on</h2>
+       <h1>social networks</h1>
+       <ul>
+         <li>23-26 may 2019 /</li>
+         <li>sans francisco /</li>
+         <li>8 speakers</li>
+
+       </ul>
+       <button type="button" name="button">REGISTER ONLINE</button>
+     </section>
+
+   </main>
+   <section class="second">
+     <div class="slot">
+       <i class="fas fa-trophy"></i>
+       <h2>WHO WE ARE</h2>
+       <p>Donec id elit non mi porta gravida at eget me tus. Sed posuere consectetur estat lobo rtis. Cum sociis natoque.</p>
+       <a href="#">learn more</a>
+
+     </div>
+     <div class="slot">
+       <i class="fas fa-bolt"></i>
+       <h2>WHAT WE DO</h2>
+       <p>Donec id elit non mi porta gravida at eget me tus. Sed posuere consectetur estat lobo rtis. Cum sociis natoque.</p>
+       <a href="#">learn more</a>
+
+     </div>
+     <div class="slot">
+       <i class="fas fa-question"></i>
+       <h2>WHY US?</h2>
+       <p>Donec id elit non mi porta gravida at eget me tus. Sed posuere consectetur estat lobo rtis. Cum sociis natoque.</p>
+       <a href="#">learn more</a>
+
+     </div>
+
+   </section>
+   <section class="third">
+     <div class="sessione-orologio">
+       <div class="session-day">
+         <h2>3228</h2>
+         <p>days</p>
+       </div>
+       <div class="session-hours">
+         <h2>16</h2>
+         <p>hours</p>
+       </div>
+       <div class="session-minut">
+         <h2>24</h2>
+         <p>minut</p>
+       </div>
+       <div class="session-second">
+         <h2>12</h2>
+         <p>second</p>
+       </div>
+      </div>
+     <h2>SUBSCRIBE FOR UPDATES</h2>
+     <form class="ricerca">
+       <input id="search" type="text" placeholder="please fill your email" required>
+       <input id="submit" type="submit" value="SUBSCRIBE">
+
+     </form>
+
+
+   </section>
+
+
+
+
+   </div>
+
+
+  </body>
+</html>
